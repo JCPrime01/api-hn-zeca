@@ -41,9 +41,9 @@
       <!-- Disparo no botão -->                                                                                                                                                            
       <script>                            
           async function dispararLead() {                                                                                                                                                  
-              const eventId = 'Lead_' + Date.now();                                                                                                                                        
+              const eventId = 'CompleteRegistration' + Date.now();                                                                                                                                        
                                               
-              fbq('track', 'Lead', {}, { eventID: eventId });                                                                                                                              
+              fbq('track', 'CompleteRegistration', {}, { eventID: eventId });                                                                                                                              
                                                                                                                                                                                          
               try {                                                                                                                                                                        
                   await fetch(API_URL, {                                                                                                                                                   
